@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A portfolio template that uses Material Design Lite.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>my TODO</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="static/styles.css">
+    <script src="static/vendor.js"></script>
+    <script src="static/vendor/material.min.js"></script>
+  </head>
+
+  <body>
+    <div class="mdl-layout mdl-js-layout">
+      <main class="mdl-layout__content">
+        <div class="mdl-grid portfolio-max-width task-components"></div>
+        <div class="floating-action-button">
+          <button class="floating-action mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+            <i class="material-icons">add</i>
+          </button>
+        </div>
+      </main>
+    </div>
+    <dialog class="mdl-dialog">
+      <h4 class="mdl-dialog__title">Add new task</h4>
+      <div class="mdl-dialog__content">
+        <form id="add-task-form">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" name="name" type="text" id="sample3">
+            <label class="mdl-textfield__label" for="sample3">Name...</label>
+          </div>
+          <div class="mdl-textfield mdl-js-textfield">
+            <textarea class="mdl-textfield__input" name="text" type="text" rows="3" id="sample5"></textarea>
+            <label class="mdl-textfield__label" for="sample5">Description...</label>
+          </div>
+        </form>
+      </div>
+      <div class="mdl-dialog__actions">
+        <button type="button" class="mdl-button add">Add</button>
+        <button type="button" class="mdl-button close">Cancel</button>
+      </div>
+    </dialog>
+  </body>
+</html>

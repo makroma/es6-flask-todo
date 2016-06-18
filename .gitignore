@@ -1,0 +1,6 @@
+*.pyc
+
+# app components #
+############################
+node_modules/
+.tmp
