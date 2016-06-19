@@ -8,3 +8,7 @@ This is a skeleton with basic npm - grunt setup for Flask backend and ES6 - babe
   2. grunt watch - for file changes
   3. export FLASK_APP=server
   4. flask run
+
+## Note
+
+Dialogs use the HTML <dialog> element, which currently has very limited cross-browser support.

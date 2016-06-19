@@ -66,7 +66,7 @@ module.exports = function(grunt) {
           ]
         },
         src: 'app/initialize.js',
-        dest: 'server/static/vendor.js'
+        dest: 'server/static/app.js'
       }
     }
   });
